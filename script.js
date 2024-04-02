@@ -89,7 +89,7 @@ function fetchExercise() {
     fetch('https://api.api-ninjas.com/v1/exercises?type=stretching', {
         method: 'GET',
         headers: {
-            'X-Api-Key': '3h3E0cd7w+1Y1IakhozHjA==15RHKoSmg6rkFPAi' // Substitua pela sua chave API real
+            'X-Api-Key': // Substitua pela sua chave API real
         }
     })
     .then(response => response.json())
